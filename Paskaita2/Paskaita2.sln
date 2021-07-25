@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paskaita2", "Paskaita2.csproj", "{484C1F78-0D1D-4D34-93BF-ADCE692DE0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{484C1F78-0D1D-4D34-93BF-ADCE692DE0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{484C1F78-0D1D-4D34-93BF-ADCE692DE0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{484C1F78-0D1D-4D34-93BF-ADCE692DE0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{484C1F78-0D1D-4D34-93BF-ADCE692DE0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17C3EF8B-F24F-4AAA-8033-B6B2B41ADE64}
+	EndGlobalSection
+EndGlobal
