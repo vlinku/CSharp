@@ -135,6 +135,98 @@ namespace Paskaita3
             Console.WriteLine(pradzia);
             Console.WriteLine();
 
+            
+           // Raskite visų skaičių nuo 1 iki 100 sumą.
+             Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("8 uzduotis, 10 psl.");
+
+
+            var simto_suma = 0;
+            for (int i = 1; i < 100; i++)
+			{
+                   simto_suma +=i;
+			}
+
+            Console.WriteLine(simto_suma);
+
+            Console.WriteLine();
+             
+
+            var lyg_20_50_suma = 0;
+           
+            //Raskite visų lyginių skaičių nuo 20 iki 50 sumą. 
+             Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("9 uzduotis, 10 psl.");
+
+            for (int i = 20; i < 50; i++)
+			{
+                if (i % 2 == 0)
+                {
+                    lyg_20_50_suma +=i;
+                }
+			}
+            Console.WriteLine(lyg_20_50_suma);
+           
+
+            //Raskite visų nelyginių skaičių nuo 30 iki 60 sumą
+             Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("10 uzduotis, 10 psl.");
+            var nelyg_30_60_suma = 0;
+            for (int i = 30; i < 60; i++)
+            {
+                if (i % 2 != 0)
+                    {
+                        nelyg_30_60_suma +=i;
+                    }
+            }
+			
+            Console.WriteLine(nelyg_30_60_suma);
+            Console.WriteLine();
+			
+            //Rasti visų skaičių, žemesnių už 1000 ir kurie dalinasi iš 3 arba 5, sumą.
+            var dal_3_arba_5 = 0;
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("11 uzduotis, 10 psl.");
+
+            for (int i = 1; i < 1000; i++)
+			{
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    dal_3_arba_5 +=i;
+                }
+			}
+            Console.WriteLine(dal_3_arba_5);
+            Console.WriteLine();
+            
+
+            //"Write a program that prints the numbers from 1 to 100.
+            //But for multiples of three print “Fizz” instead of the number and for the multiples of five
+            //print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”."
+
+            Console.WriteLine("------------------------------------------------------------------");
+            Console.WriteLine("12 uzduotis, 11 psl.");
+
+            for (int i = 1; i < 100; i++)
+			{
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (i % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else if (i % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+
+
+			}
 
             Console.ReadKey();
 
